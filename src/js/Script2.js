@@ -63,4 +63,16 @@ class Persona {
 // metodo de objetos y propiedades
 Persona.numControl= "123456";
 
+//creacion de objetos forma comun y sencilla
+const objVehiculo={
+color: "Rojo",
+modelo: "Vento",   
+marca: "Ferrari",
+kilometraje: 345,
+mostrarDatos: function(){
+    //console.log(`Color: ${this.color} Modelo: ${this.modelo} Marca: ${this.marca} Kilometraje: ${this.kilometraje}`);
+    console.log("Yo muestro los datos")
+}
+};
 
+console.log(objVehiculo.modelo);
